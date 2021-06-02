@@ -1,0 +1,10 @@
+body {
+   font-family: arial:
+ h1 {
+   style="font-weight:bold;"
+   color: rgb(160, 149, 80);}
+ p {
+   style="font-style: italic;"
+   color: rgb(67, 140, 200);}
+ p.one (
+    border-width: 4px;)
