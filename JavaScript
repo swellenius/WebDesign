@@ -1,0 +1,15 @@
+<link rel="myinterest" href="https://swellenius.github.io/WebDesign/Interests">
+
+<div class="navigation" id="Navigation">
+  <a href="#about">About</a>
+  <a href="#Shows">shows</a>
+  <a href="Movies">Movies</a>
+  
+ function myFunction() {
+  var x = document.getElementById("Navigation");
+  if (x.className === "Navigation") {
+    x.className += " responsive";
+  } else {
+    x.className = "Navigation";
+  }
+}
